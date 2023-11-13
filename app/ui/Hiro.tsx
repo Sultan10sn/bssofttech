@@ -20,7 +20,6 @@ const Hiro = () => {
     }, [isInView]);
 
     return (
-
         <motion.div
             ref={ref}
             animate={controls}
