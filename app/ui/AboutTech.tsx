@@ -26,7 +26,7 @@ const AboutTech = () => {
             animate={controls}
             initial="hidden"
             variants={squareVariants}
-            transition={{ duration: 0.5, delay: 0.30 }}
+            transition={{ duration: 0.5, delay: 0.37 }}
         >
             <div className='px-9'>
                 <h1 className={`${lusitana.className} text-sm md:text-lg text-gray-900 font-bold pb-4`}>ABOUT RECONNAISSANCE TECHNOLOGIES</h1>
