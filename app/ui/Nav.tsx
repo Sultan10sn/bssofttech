@@ -30,7 +30,7 @@ export default function Nav() {
                                     height={100}
                                 />
                             </Link>
-                            <p className='text-xs pl-36 md:pl-7 text-green-600'>RC.1918623</p>
+                            <p className='text-xs pl-32 md:pl-8 text-green-600'>RC.1918623</p>
                             <div className="md:hidden">
                                 <button
                                     className="p-2 bg-red-700 text-red-700 rounded-md outline-none focus:border-gray-400 focus:border"
