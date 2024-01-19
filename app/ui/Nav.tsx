@@ -74,18 +74,18 @@ export default function Nav() {
                             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
                                 }`}
                         >
-                            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0" onClick={() => setNavbar(false)}>
-                                <li className="text-red-700 text-sm font-bold">
+                            <ul className="items-center justify-center space-y-2 md:flex md:space-x-6 md:space-y-0" onClick={() => setNavbar(false)}>
+                                <li className="text-red-700 text-sm font-bold h-7">
                                     <Link href="/">
                                         Home
                                     </Link>
                                 </li>
-                                <li className="text-sm font-bold text-red-700">
+                                <li className="text-sm font-bold text-red-700 h-7">
                                     <Link href="/about">
                                         About
                                     </Link>
                                 </li>
-                                <li className="text-red-700 text-sm font-bold">
+                                <li className="text-red-700 text-sm font-bold h-7">
                                     <Link href="/contact">
                                         Contact
                                     </Link>

@@ -61,11 +61,11 @@ const AboutTech = () => {
                         </div>
                     </div>
                     <div className={`${lusitana.className} text-gray-900 font-bold leading-2`}>
-                        Armed with a strong team of experienced developers, <b /> Reconnaissance Technologies helps fortune 500 companies & start-ups build robust software & products using niche technologies.
+                        Armed with a strong team of experienced developers, <b /> BS-SOFTTECH Technologies helps fortune 500 companies & start-ups build robust software & products using niche technologies.
                     </div>
 
                     <div className={`${lusitana.className} text-gray-900 font-bold leading-2`}>
-                        At Reconnaissance Technologies, we possess the skills and expertise to tackleyour toughest business problems at scale. We also implore the use of Machine Learning & AI technologies to provide better customer-centric solutions.
+                        At BS SOFTTECH Technologies, we possess the skills and expertise to tackleyour toughest business problems at scale. We also implore the use of Machine Learning & AI technologies to provide better customer-centric solutions.
                     </div>
                 </div>
             </div>
