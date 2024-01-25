@@ -7,7 +7,7 @@ import Techs from './ui/Techs'
 export default function Home() {
 
   return (
-    <main className="flex min-h-screen items-center flex-col justify-between bg-gray-50">
+    <main className="flex min-h-screen items-center flex-col justify-between bg-gray-100">
       <Hero />
       <AboutTech />
       <Itemlist />
