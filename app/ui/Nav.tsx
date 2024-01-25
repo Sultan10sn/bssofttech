@@ -18,7 +18,7 @@ export default function Nav() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <nav className="sticky w-full bg-white shadow-lg">
+            <nav className="sticky w-full bg-white shadow-sm">
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -74,20 +74,26 @@ export default function Nav() {
                             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
                                 }`}
                         >
-                            <ul className="items-center justify-center space-y-2 md:flex md:space-x-6 md:space-y-0" onClick={() => setNavbar(false)}>
-                                <li className="text-red-700 text-sm font-bold h-7">
+                            <ul className="items-center justify-center space-y-2 md:flex md:space-x-6 md:space-y-0 " onClick={() => setNavbar(false)}>
+                                <li>
                                     <Link href="/">
-                                        Home
+                                        <button className='w-full bg-red-700 md:bg-white font-bold text-sm text-white md:text-red-600 p-2 rounded-sm'>
+                                            Home
+                                        </button>
                                     </Link>
                                 </li>
-                                <li className="text-sm font-bold text-red-700 h-7">
+                                <li>
                                     <Link href="/about">
-                                        About
+                                        <button className='w-full bg-red-700 md:bg-white font-bold text-sm text-white md:text-red-600 p-2 rounded-sm'>
+                                            About
+                                        </button>
                                     </Link>
                                 </li>
-                                <li className="text-red-700 text-sm font-bold h-7">
+                                <li>
                                     <Link href="/contact">
-                                        Contact
+                                        <button className='w-full bg-red-700 md:bg-white font-bold text-sm text-white md:text-red-600 p-2 rounded-sm'>
+                                            Contact
+                                        </button>
                                     </Link>
                                 </li>
                             </ul>
