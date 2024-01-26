@@ -37,7 +37,7 @@ const About = () => {
                             src='/us.jpg'
                             width={1000}
                             height={760}
-                            className=' hidden md:block'
+                            className='hidden md:block'
                             alt='screenshot of the dashbord'
                         />
                         <Image
